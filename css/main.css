@@ -2,40 +2,16 @@ html, body {
   overflow-x: hidden;
 }
 
-<<<<<<< HEAD
-/**
- * Enable smooth scrolling on the whole document
-=======
-/**
- * Enable smooth scrolling on the whole document
->>>>>>> 451e11f (Updated portfolio with new changes)
- */
 html {
   scroll-behavior: smooth;
 }
 
-<<<<<<< HEAD
-/**
- * Disable smooth scrolling when users have prefers-reduced-motion enabled
-=======
-/**
- * Disable smooth scrolling when users have prefers-reduced-motion enabled
->>>>>>> 451e11f (Updated portfolio with new changes)
- */
 @media screen and (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
 }
 
-<<<<<<< HEAD
-/**
- * Add .section to every anchored element for scroll margin
-=======
-/**
- * Add .section to every anchored element for scroll margin
->>>>>>> 451e11f (Updated portfolio with new changes)
- */
 .section {
   scroll-margin-top: 2rem;
 }
